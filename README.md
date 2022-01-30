@@ -1,2 +1,2 @@
-# hobikila
-A landing page for hobikila
+# Hobikila Landing Page!
+
