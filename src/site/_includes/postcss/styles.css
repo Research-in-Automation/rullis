@@ -42,14 +42,14 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-color-brand: #353535;
+  --ui-color-brand: #ff7f00;
 
   /* COLOR PALETTE */
 
-  --ui-color-n-000: #C1DEAE;
-  --ui-color-n-050: #F2F5C8;
-  --ui-color-n-100: #E8E8A6;
-  --ui-color-n-300: #aeaeae;
+  --ui-color-n-000: #fff5e7;
+  --ui-color-n-050: #ffffff;
+  --ui-color-n-100: #ffbf70;
+  --ui-color-n-300: #d5aa73;
   --ui-color-n-500: #353535;
   --ui-color-n-700: #282828;
   --ui-color-n-900: #1a1a1a;
@@ -138,8 +138,8 @@ html { box-sizing: border-box; }
 *:after { box-sizing: inherit; }
 
 body {
-  background: rgb(242,245,200);
-  background: radial-gradient(circle, rgba(242,245,200,1) 0%, rgba(193,222,174,1) 36%, rgba(232,232,166,1) 100%);
+  background: var(--ui-color-background-primary);
+  background: radial-gradient(circle, var(--ui-color-background-primary) 0%, var(--ui-color-background-secondary) 36%, var(--ui-color-background-tertiary) 100%);
   color: var(--ui-color-typography-body);
   font-family: var(--ui-typography-typeface);
   font-feature-settings: "liga", "kern";
