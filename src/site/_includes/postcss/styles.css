@@ -385,6 +385,7 @@ div label[for=ui-component-toggle__yearly] {
   border-radius: var(--ui-radius-card);
   overflow: hidden;
   width: 100%;
+  height: 100%;
 }
 
 /*--------------------------------------------------------------
