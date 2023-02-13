@@ -592,10 +592,18 @@ div label[for=ui-component-toggle__yearly] {
   line-height: 1;
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
+  width: 100%;
 }
 
 .ui-component-card--pricing-amount {
   font-size: var(--ui-typography-h1);
+  font-weight: 700;
+}
+
+.ui-component-card--pricing-amount-2 {
+  font-size: var(--ui-typography-h3);
+  text-decoration-color: red;
+  vertical-align: top;
   font-weight: 700;
 }
 
