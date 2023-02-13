@@ -1,5 +1,5 @@
 ---
-title: Rullis - Rumah Menulis
+title: Rullis - Ruang Menulis
 layout: layouts/base.njk
 ---
 
@@ -49,11 +49,30 @@ layout: layouts/base.njk
   <section class="ui-section-feature">
     <div class="ui-layout-container">
       <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
+        <!-- FEATURE -->
+        <div>
+          <h2>Pemateri asik dan ahli di bidang menulis karya ilmiah</h2>
+          <p class="ui-text-intro">
+            Kak Aniq, Lailatun Nurul Aniq, S.Pd., M.Pd. Adalah seorang yang ahli di bidang karya tulis ilmiah
+            beberapa tulisannya terpublikasi di jurnal internasional.
+          </p>
+          <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
+            <li class="ui-component-list--item ui-component-list--item-check">
+              SCOPUS ID 57767814500
+            </li>
+            <li class="ui-component-list--item ui-component-list--item-check">
+              Awardee Beasiswa S3 UNS Tahun 2022
+            </li>
+          </ul>
+        </div>
         <!-- IMAGE -->
         <picture>
-          <source srcset="./images/Frame 31.png" />
-          <img src="images/Frame 31.png" loading="lazy" alt="#" class="ui-rounded-image">
+          <source srcset="./images/aniq.jpg" />
+          <img src="images/aniq.jpg" loading="lazy" alt="#" class="ui-rounded-image">
         </picture>
+      </div>
+
+      <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
         <!-- FEATURE -->
         <div>
           <h2>Kenapa harus belajar di ruang menulis?</h2>
@@ -74,6 +93,11 @@ layout: layouts/base.njk
             </li>
           </ul>
         </div>
+        <!-- IMAGE -->
+        <picture>
+          <source srcset="./images/Frame 31.png" />
+          <img src="images/Frame 31.png" loading="lazy" alt="#" class="ui-rounded-image">
+        </picture>
       </div>
 
       <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
@@ -157,9 +181,6 @@ layout: layouts/base.njk
           <!-- LIST -->
           <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
             <li class="ui-component-list--item ui-component-list--item-check">
-              2 Kali Zoom Meeting
-            </li>
-            <li class="ui-component-list--item ui-component-list--item-check">
               E-sertifikat
             </li>
           </ul>
@@ -183,6 +204,13 @@ layout: layouts/base.njk
               <small>Email</small>
             </label>
             <input type="text" name="email" id="email" placeholder=""/>
+            <label for="kelas">
+              <small>Kelas</small>
+            </label>
+            <select name="kelas" id="kelas">
+              <option value="full" default>Kelas intensif 7 Hari</option>
+              <option value="webminar">Webminar</option>
+            </select>
             <div class="ui-component-divider"></div>
             <button href="#" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="submit"
               aria-label="#">Daftar Sekarang!
@@ -203,16 +231,16 @@ layout: layouts/base.njk
         <div class="ui-layout-column-4">
           <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#"
             class="ui-section-testimonial--avatar">
-          <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;Lorem ipsum dolor sit amet, consec adipiscing
-            elit, sed do eiusmod tempor incididunt labore dolore magna.&rdquo;</p>
-          <p class="ui-section-testimonial--author"><strong>Slamet Daryo</strong><br><small class="ui-text-note">Kepala Dinas Pariwisata Bantul</small></p>
+          <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;Kelas bersama mas Aniq ini menyenangkan, dan seluruh metode penulisan
+          abstrak, latar belakang, daftar pustaka, teknik penulisan, dijelaskan secara mudah.&rdquo;</p>
+          <p class="ui-section-testimonial--author"><strong>Kak Heru</strong><br><small class="ui-text-note">PNS</small></p>
         </div>
         <div class="ui-layout-column-4">
           <img src="https://res.cloudinary.com/uisual/image/upload/assets/icons/avatar.svg" alt="#"
             class="ui-section-testimonial--avatar">
-          <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;Lorem ipsum dolor sit amet, consec adipiscing
-            elit, sed do eiusmod tempor incididunt labore dolore magna.&rdquo;</p>
-          <p class="ui-section-testimonial--author"><strong>Agus Shurti</strong><br><small class="ui-text-note">Mahasiswa UNY</small></p>
+          <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;Pak Aniq selalu responsif menjawab pertanyaan.
+            Saya merasa nyaman walaupun harus belajar dari 0, banyak peserta yang antusias juga bikin semangat.&rdquo;</p>
+          <p class="ui-section-testimonial--author"><strong>Pak Damar</strong><br><small class="ui-text-note">PNS</small></p>
         </div>
       </div>
     </div>
